@@ -1,0 +1,155 @@
+CRITICAL - 2024-09-18 00:19:08 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\WST-Demo-1\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 00:33:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/mainlayout.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/mainlayout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing_page', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('landing_page')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 00:33:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/mainlayout.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/mainlayout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing_page', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('landing_page')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 00:36:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/mainlayout.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/mainlayout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing_page', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('landing_page')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 00:36:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/mainlayout.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/mainlayout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing_page', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('landing_page')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 00:36:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/mainlayout.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/mainlayout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing_page', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('landing_page')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 00:38:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/mainlayout.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/mainlayout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing_page', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('landing_page')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 00:38:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/mainlayout.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/mainlayout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing_page', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('landing_page')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 00:38:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/mainlayout.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/mainlayout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing_page', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('landing_page')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 00:38:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/mainlayout.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/mainlayout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing_page', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('landing_page')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 00:41:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/mainlayout.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/mainlayout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing_page', [], true)
+ 4 APPPATH\Controllers\User.php(9): view('landing_page')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 00:41:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/mainlayout.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/mainlayout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layouts/mainlayout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('landing_page', [], true)
+ 4 APPPATH\Controllers\User.php(9): view('landing_page')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\User->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

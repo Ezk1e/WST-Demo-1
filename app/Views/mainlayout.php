@@ -13,6 +13,10 @@
     </style>
 </head>
 <body>
+    <div class = "container">
+        <?= $this->include('includes/navbar'); ?>
+        <?= $this->include('content'); ?>
+    </div>
 
 </body>
 </html>
